@@ -1,0 +1,29 @@
+\babel@toc {slovene}{}
+\contentsline {section}{\numberline {1}Uvod}{4}{section.1}%
+\contentsline {section}{\numberline {2}Tveganje in investicije}{5}{section.2}%
+\contentsline {section}{\numberline {3}Tradicionalne metode vrednotenja investicij}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Praktični problemi uporabe tradicionalnih metod}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Metoda neto sedanje vrednosti}{9}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Primer: Kako izračunati NSV?}{9}{subsubsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.3}Interna stopnja donosa}{10}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Doba povračila}{11}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Uporaba dobe povračila za oceno investicije}{12}{subsubsection.3.4.1}%
+\contentsline {section}{\numberline {4}Finančne opcije}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Realne in finančne opcije}{13}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Realne opcije}{14}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Zakaj so realne opcije pomembne?}{14}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Zgodovina realnih opcij}{15}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Osnovno ogrodje in uporaba realnih opcij}{16}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Razširitev ogrodja (možnost za napredek)}{17}{subsubsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.4}Black-Sholesov model vrednotenja realnih opcij}{18}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Primer}{20}{subsubsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.2}Zakaj uporaba Black-Sholesove formule pri realnih opcijah ni najboljša?}{20}{subsubsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.5}Binomski model vrednotenja realnih opcij}{20}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Vrste realnih opcij in primeri uporabe}{22}{subsection.5.6}%
+\contentsline {subsubsection}{\numberline {5.6.1}Osnovna naloga}{23}{subsubsection.5.6.1}%
+\contentsline {subsubsection}{\numberline {5.6.2}Uporaba tradicionalne metode}{23}{subsubsection.5.6.2}%
+\contentsline {subsubsection}{\numberline {5.6.3}Metoda pogojnih terjatev}{24}{subsubsection.5.6.3}%
+\contentsline {subsubsection}{\numberline {5.6.4}Opcija časa investiranja}{25}{subsubsection.5.6.4}%
+\contentsline {subsubsection}{\numberline {5.6.5}Opcija rasti}{26}{subsubsection.5.6.5}%
+\contentsline {subsubsection}{\numberline {5.6.6}Opcija zožitve}{27}{subsubsection.5.6.6}%
+\contentsline {subsubsection}{\numberline {5.6.7}Opcija opustitve projekta}{28}{subsubsection.5.6.7}%
