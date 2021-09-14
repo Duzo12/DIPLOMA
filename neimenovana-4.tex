@@ -1,3 +1,21 @@
+\newcommand{\program}{Finančna matematika}
+\newcommand{\imeavtorja}{Nejc Duščak}
+\newcommand{\imementorja}{izr. prof. dr. Janez Bernik}
+\newcommand{\naslovdela}{Realne opcije}
+\newcommand{\letnica}{2021}
+\newcommand{\povzetek}{V diplomski nalogi sem želel pokazati glavne razlike med tradicionalnimi in realnimi metodami za vrednotenje različnih investicij. S primeri sem poskušal še bolj ponazoriti glavne razlike. Glavni problem je bilo vrednotenje managarske fleksibilnosti, ki lahko močno spremeni vrednost investicije. S različnimi vrstami realnih opcij (opcija časa investiranja, opcija rasti, opcija zožitve in opcija opustitve projekta) sem pokazal kako pravilno in najbolje vrednotiti fleksibilnost in kako to vpliva na vrednost celotne investicije. Te metode so se izkazale kot zelo primerne za vrednotenje investicij, saj zajemajo veliko spremenljivk, ki lahko močno zanihajo vrednost investicije. Zato menim, da so metode zelo uporabne, vendar je sama investicija še veliko bolj kompleksna in je na področju vredotenja še veliko spremenljivk, ki jih je težko in jih še ne znamo vrednotiti.}
+\newcommand{\kljucnebesede}{realne opcije\sep tradicionalne metode vrednotenja\sep finančne opcije\sep uporaba realnih opcij}
+
+% Če ne deluje, zakomentiraj naslednjo vrstico in odkomentiraj naslednji dve
+\begin{filecontents*}[overwrite]{\jobname.xmpdata}
+% \RequirePackage{filecontents}
+% \begin{filecontents*}{\jobname.xmpdata}
+\Title{\naslovdela}
+\Author{\imeavtorja}
+\Language{sl-SI}
+\Subject{\povzetek}
+\Keywords{realne opcije\sep tradicionalne metode vrednotenja\sep finančne opcije\sep uporaba realnih opcij}
+\end{filecontents*}
 \documentclass[12pt, a4paper]{amsart}
 \usepackage[a-1b]{pdfx} 
 \usepackage{array}
@@ -5,6 +23,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[slovene]{babel}
+\usepackage{colorprofiles}
+\hypersetup{pdfstartview=}
 \usepackage{lmodern}
 \usepackage{amsmath}
 \usepackage{units}
@@ -50,26 +70,21 @@
 \newtheorem{trditev}[definicija]{Trditev}
 \newtheorem{posledica}[definicija]{Posledica}
 
+\def\sep{, }
 
 % za stevilske mnozice uporabi naslednje simbole
 \newcommand{\R}{\mathbb R}
 \newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
-\newcommand{\C}{\mathbb C}
 \newcommand{\Q}{\mathbb Q}
 
+\providecommand{\C}{}
+\renewcommand{\C}{\mathbb C}
 
 % ukaz za slovarsko geslo
 \newlength{\odstavek}
 \setlength{\odstavek}{\parindent}
 \newcommand{\geslo}[2]{\noindent\textbf{#1}\hspace*{3mm}\hangindent=\parindent\hangafter=1 #2}
-
-
-\newcommand{\program}{Finančna matematika} 
-\newcommand{\imeavtorja}{Nejc Duščak}
-\newcommand{\imementorja}{izr. prof. dr. Janez Bernik} 
-\newcommand{\naslovdela}{Realne opcije}
-\newcommand{\letnica}{2021}
 
 \begin{document} 
 \raggedbottom
@@ -103,7 +118,7 @@ Ljubljana, \letnica}
 {\bf \naslovdela}\\[3mm]
 {\sc Povzetek}
 \end{center}
-V diplomski nalogi sem želel pokazati glavne razlike med tradicionalnimi in realnimi metodami za vrednotenje različnih investicij. S primeri sem poskušal še bolj ponazoriti glavne razlike. Glavni problem je bilo vrednotenje managarske fleksibilnosti, ki lahko močno spremeni vrednost investicije. S različnimi vrstami realnih opcij (opcija časa investiranja, opcija rasti, opcija zožitve in opcija opustitve projekta) sem pokazal kako pravilno in najbolje vrednotiti fleksibilnost in kako to vpliva na vrednost celotne investicije. Te metode so se izkazale kot zelo primerne za vrednotenje investicij, saj zajemajo veliko spremenljivk, ki lahko močno zanihajo vrednost investicije. Zato menim, da so metode zelo uporabne, vendar je sama investicija še veliko bolj kompleksna in je na področju vredotenja še veliko spremenljivk, ki jih je težko in jih še ne znamo vrednotiti.
+\povzetek
 \vfill
 \begin{center}
 {\bf Real options}\\[3mm] 
@@ -113,7 +128,7 @@ In my thesis I aimed to show  main differences between the traditional and real 
 
 \vfill\noindent
 {\bf Math. Subj. Class. (2010):} 	91-00   \\[1mm]  
-{\bf Klju"cne besede:} realne opcije, tradicionalne metode vrednotenja, finančne opcije, uporaba realnih opcij  \\[1mm]  
+{\bf Klju"cne besede:} \kljucnebesede  \\[1mm]
 {\bf Keywords:} real options, traditional valuation methods, financial options, real options in practice
 \pagebreak
 
